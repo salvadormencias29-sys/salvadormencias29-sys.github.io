@@ -61,7 +61,7 @@ header li a:hover{
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
-    height: 300px;
+    height: auto;
     color: white;
 }
 
@@ -151,6 +151,8 @@ footer{
 
     .portada{
         height: 350px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .sub{
         padding: 8px;
@@ -168,4 +170,5 @@ footer{
     .cont{
         display: block;
     }
+
 }
