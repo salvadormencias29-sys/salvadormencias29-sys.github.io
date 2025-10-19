@@ -163,8 +163,27 @@ footer{
         padding-right: 0px;
     }
 
+    header .menu{
+        justify-items: center;
+    }
+
+    header ul{
+        gap: 0;
+        padding-left: 0px;
+    }
+
+    header .menu li{
+        margin: 4px;
+    }
+
     .sub{
         padding: 8px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .sub .subs{
