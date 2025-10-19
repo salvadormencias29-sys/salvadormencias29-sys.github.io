@@ -1,0 +1,171 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #36363e;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid  #3289ae 5px;
+}
+
+header .marca{
+    color: white;
+}
+
+header .marca span{
+    color: #3289ae;
+}
+
+header .menu .pos{
+    color: #3289ae;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
+header li a:hover{
+    color: #3289ae;
+}
+
+.portada{
+    background-image: url(../imagenes/cabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 300px;
+    color: white;
+}
+
+.sub{
+    background-color: #36363e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.sub .subs{
+    width: 65%;
+    margin-left: 15%;
+    color: white;
+}
+
+.sub .form{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.sub .form form{
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    height: 26;
+}
+.sub .form form button{
+    background-color: orangered;
+    color: white;
+    width: 100;
+}
+.cont{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 20px;
+}
+
+.cont .inf{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.cont .inf p{
+}
+
+.cont .inf img{
+    height: 150px;
+}
+
+footer{
+    background-color: rgb(38, 172, 255);
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 70%;
+}
+
+/*-----RENPONSIVE-----*/
+@media screen and (max-width: 600px){
+    header{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        padding: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .portada{
+        height: 350px;
+    }
+    .sub{
+        padding: 8px;
+    }
+
+    .sub .subs{
+        margin-left: 0;
+        font-size: 60%;
+    }
+
+    .sub .form{
+        margin-right: 0;
+    }
+
+    .cont{
+        display: block;
+    }
+}
