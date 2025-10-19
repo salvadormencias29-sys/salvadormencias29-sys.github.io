@@ -153,6 +153,7 @@ footer{
         height: 350px;
         padding-left: 10px;
         padding-right: 10px;
+        height: auto;
     }
     .sub{
         padding: 8px;
@@ -172,3 +173,4 @@ footer{
     }
 
 }
+
